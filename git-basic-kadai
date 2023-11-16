@@ -1,0 +1,41 @@
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~
+$ cd 'C:\Users\hiram\OneDrive\ドキュメント\Task'
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~/OneDrive/ドキュメント/Task
+$ mkdir git_challenge
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~/OneDrive/ドキュメント/Task
+$ cd 'C:\Users\hiram\OneDrive\ドキュメント\Task\git_challenge'
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~/OneDrive/ドキュメント/Task/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/hiram/OneDrive/ドキュメント/Task/git_challenge/.git/
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~/OneDrive/ドキュメント/Task/git_challenge (main)
+$ echo "Hello, world!" >> hello_world.txt
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~/OneDrive/ドキュメント/Task/git_challenge (main)
+$ git add hello_world.txt
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~/OneDrive/ドキュメント/Task/git_challenge (main)
+$ git commit -m "一番目のコミット"
+[main (root-commit) 5330f23] 一番目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~/OneDrive/ドキュメント/Task/git_challenge (main)
+$ echo "こんにちは、世界！" >> hello_world.txt
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~/OneDrive/ドキュメント/Task/git_challenge (main)
+$ git add hello_world.txt
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~/OneDrive/ドキュメント/Task/git_challenge (main)
+$ git commit -m "二番目のコミット"
+[main f8bce07] 二番目のコミット
+ 1 file changed, 1 insertion(+)
+
+hiram@LAPTOP-KR6CNHO7 MINGW64 ~/OneDrive/ドキュメント/Task/git_challenge (main)
+$ git log --oneline
+f8bce07 (HEAD -> main) 二番目のコミット
+5330f23 一番目のコミット
